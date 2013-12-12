@@ -28,7 +28,7 @@ for(i = text.length; i--;)
     newLayer.kind = LayerKind.TEXT;
 
 	// Define your new layer here
-	// @TODO This doesn't affect anything? Not sure why...
+	// TODO This doesn't affect anything? Not sure why...
     newLayer.antiAliasMethod = AntiAlias.NONE;
 
 	// Define the font to use

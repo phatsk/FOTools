@@ -31,3 +31,9 @@ Notes on the FOFNT Format
 	XAdvance is the space given to the character in total - so if it's width is 8, it's XAdvance
 		of 9 would give an additional pixel buffer after the letter (kerning-esque?)
 
+Changelog
+===
+ * Version 0.2
+   * Fixes for Photoshop CS2 (thanks b____B from FODev)
+ * Version 0.1
+   * Intial commit
