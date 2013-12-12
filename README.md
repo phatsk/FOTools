@@ -34,6 +34,6 @@ Notes on the FOFNT Format
 Changelog
 ===
  * Version 0.2
-   * Fixes for Photoshop CS2 (thanks b____B from FODev)
+   * Fixes for Photoshop CS2 (thanks b\_\_B from FODev)
  * Version 0.1
    * Intial commit
