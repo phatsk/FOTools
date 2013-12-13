@@ -27,17 +27,10 @@ for(i = text.length; i--;)
     newLayer = app.activeDocument.artLayers.add();
     newLayer.kind = LayerKind.TEXT;
 
-	// Define your new layer here
-	// TODO This doesn't affect anything? Not sure why...
-    newLayer.antiAliasMethod = AntiAlias.NONE;
-
-	// Define the font to use
-    newLayer.textItem.font = 'Monofonto';
-
-	// Currently only copies the source layer's color
+	// Defines the new layer's font properties based off of the source layer
+    newLayer.textItem.antiAliasMethod = layer.textItem.antiAliasMethod;
+    newLayer.textItem.font = layer.textItem.antiAliasMethod;
     newLayer.textItem.color = layer.textItem.color;
-
-	// Copy the source layer's font size
     newLayer.textItem.size = layer.textItem.size;
 
 	// Make the contents of this layer the letter
